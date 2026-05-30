@@ -1,0 +1,13 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@mmlngl/typescript-config/base.json",
+	"include": ["alchemy.run.ts", "src/**/*.ts", "src/**/*.d.ts", "test/**/*.ts"],
+	"compilerOptions": {
+		"noEmit": true,
+		"rootDir": ".",
+		"module": "Preserve",
+		"moduleResolution": "Bundler",
+		"target": "ESNext",
+		"types": ["@cloudflare/workers-types"]
+	}
+}

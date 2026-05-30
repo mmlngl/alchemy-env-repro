@@ -1,0 +1,23 @@
+{
+	"name": "api",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"deploy": "alchemy deploy",
+		"destroy": "alchemy destroy",
+		"dev": "alchemy dev"
+	},
+	"devDependencies": {
+		"@mmlngl/biome-config": "workspace:^",
+		"@mmlngl/typescript-config": "workspace:^",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@cloudflare/workers-types": "catalog:",
+		"@effect/platform-node": "catalog:",
+		"@effect/platform-bun": "catalog:",
+		"@effect/vitest": "catalog:",
+		"alchemy": "catalog:",
+		"effect": "catalog:"
+	}
+}
